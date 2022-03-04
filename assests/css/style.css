@@ -65,3 +65,29 @@ textarea {
     color: white;
 }
 
+saveBtn i:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+}
+
+@media screen and (max-height: 768px), screen and (max-width: 575px) {
+    .row {
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .hour {
+        padding-right: 17%;
+    }
+
+    .saveBtn {
+        border: 0;
+        border-radius: 0.25rem;
+        height: 50px;
+    }
+
+    textare {
+        min-height: 85px;
+        border: 0;
+    }
+}
